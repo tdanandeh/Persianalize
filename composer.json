@@ -1,0 +1,36 @@
+{
+    "name": "tdanandeh/persianalize",
+    "type": "library",
+    "description": "Laravel package for normalize Persian text",
+    "keywords": [
+        "persian",
+        "laravel",
+        "normalize"
+    ],
+    "homepage": "https://github.com/tdanandeh/Persianalize",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tohid Danandeh",
+            "email": "tdanandeh@yahoo.com",
+            "homepage": "http://livedars.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": ">=5.1",
+        "php" : "~5.6|~7.0|~8.0|~8.0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tdanandeh\\Persianalize\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TohidDanandeh\\Persianalize\\PersianalizeServiceProvider"
+            ]
+        }
+    }
+}
