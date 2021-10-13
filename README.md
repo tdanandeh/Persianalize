@@ -8,18 +8,23 @@
 ## نصب
 
 با کامپوزر
-
+<div dir="ltr">
+ 
 ``` bash
-$ composer require tdanandeh/persianalize
+composer require tdanandeh/persianalize
 ```
-
+ 
+</div>
 اگر لاراول شما  5.5 (یا پایینتر) است به قسمت
 service provider در فایل  config/app.php
 رفته و دستور زیر را اضافه کنید.
+ <div dir="ltr">
+  
 ``` php
 TohidDanandeh\Persianalize\PersianalizeServiceProvider:class
 ```
-
+  
+</div>
 اگر نسخه لاراول شما از 5.5+ بیشتر است ، بصورت خودکار از ویژگی لاراول استفاده می کند و نیازی به اضافه کردن نیست.
 ## طریقه استفاده
 <div dir="ltr">
