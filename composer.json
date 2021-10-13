@@ -1,6 +1,7 @@
 {
     "name": "tdanandeh/persianalize",
     "type": "library",
+    "version": "3.1.7",
     "description": "Laravel package for normalize Persian text",
     "keywords": [
         "persian",
