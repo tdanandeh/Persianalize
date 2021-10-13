@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tdanandeh\\Persianalize\\": "src"
+            "tdanandeh\\Persianalize\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "TohidDanandeh\\Persianalize\\PersianalizeServiceProvider"
+                "tdanandeh\\Persianalize\\PersianalizeServiceProvider"
             ]
         }
     }
